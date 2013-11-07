@@ -5,21 +5,21 @@ use warnings;
 
 =head1 NAME
 
-Math::RatioResize - Work out new dimensions for an image (or just a retangle) when restricted in one dimension.
+Math::RatioResize - Work out new dimensions for an image (or just a rectangle) when restricted in one dimension.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 $VERSION = eval $VERSION;
 
 =head1 SYNOPSIS
 
-Given a box dimensions (width and height), and a max width or height, return back the resized dimensions whilst maintining the aspect-ratio.
+Given a box dimensions (width and height), and a max width or height, return back the resized dimensions whilst maintaining the aspect-ratio.
 
  use Math::RatioResize;
  

@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Work out new dimensions for an image (or just a retangle) when restricted in one dimension.",
+  "ABSTRACT" => "Work out new dimensions for an image (or just a rectangle) when restricted in one dimension.",
   "AUTHOR" => "Rob Brown <rob\@intelcompute.com>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -24,7 +24,7 @@ my %WriteMakefileArgs = (
     "Test::More" => 0
   },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }

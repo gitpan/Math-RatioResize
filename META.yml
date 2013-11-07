@@ -1,5 +1,5 @@
 ---
-abstract: 'Work out new dimensions for an image (or just a retangle) when restricted in one dimension.'
+abstract: 'Work out new dimensions for an image (or just a rectangle) when restricted in one dimension.'
 author:
   - 'Rob Brown <rob@intelcompute.com>'
 build_requires: {}
@@ -15,4 +15,4 @@ name: Math-RatioResize
 requires:
   Test::Exception: 0
   Test::More: 0
-version: 0.02
+version: 0.03
