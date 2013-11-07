@@ -19,9 +19,12 @@ my %WriteMakefileArgs = (
   "EXE_FILES" => [],
   "LICENSE" => "perl",
   "NAME" => "Math::RatioResize",
-  "PREREQ_PM" => {},
+  "PREREQ_PM" => {
+    "Test::Exception" => 0,
+    "Test::More" => 0
+  },
   "TEST_REQUIRES" => {},
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => "t/*.t"
   }
